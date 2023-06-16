@@ -1,0 +1,29 @@
+.w-100 {
+    width: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.scroll-area {
+    position: relative;
+}
+
+.comment-scroll-area {
+    position: relative;
+    max-height: 250px;
+    overflow: auto;
+    padding: 0 15px;
+}
+
+@media only screen and (min-width: 960px) {
+    .v-main {
+        max-height: 94vh;
+        overflow: hidden;
+    }
+    .scroll-area {
+       height: 85vh;
+       padding: 0 10px 10px 10px;
+    }
+}
